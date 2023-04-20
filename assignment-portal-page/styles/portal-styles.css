@@ -19,7 +19,7 @@ header {
 header h1 {
     margin-top: 2.5em;
     padding-left: 1em;
-    color: #566D8C;
+    color: white;
 }
 
 main {
@@ -36,6 +36,6 @@ footer {
     text-align: center;
     background-color: #2A3340;
     border-radius: 5%;
-    color: #566D8C;
+    color: white;
     padding: 1em;
 }
