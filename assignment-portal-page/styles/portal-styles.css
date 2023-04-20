@@ -1,3 +1,41 @@
+body {
+    background-color: #B4C0D9;
+    color: #0B1426;
+}
+
 img {
-    max-width: 10%;
+    max-width: 20%;
+    border-radius: 60%;
+    box-shadow: 0px 5px 10px 0px white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #2A3340;
+    border-radius: 5%;
+}
+
+header h1 {
+    margin-top: 2.5em;
+    padding-left: 1em;
+    color: #566D8C;
+}
+
+main {
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 27%;
+}
+
+footer {
+    text-align: center;
+    background-color: #2A3340;
+    border-radius: 5%;
+    color: #566D8C;
+    padding: 1em;
 }
