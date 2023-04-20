@@ -16,6 +16,10 @@ header {
     border-radius: 5%;
 }
 
+a::after (
+    color: white;
+)
+
 header h1 {
     margin-top: 2.5em;
     padding-left: 1em;
