@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lobster&family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: #8594a3;
+}
+
+header {
+	background-color: #68C5D8;
+	border-radius: 6%;
+	margin-left: .6em;
+	margin-right: .6em;
+}
+
+div {
+	padding: 1em;
+}
+
+h1 {
+	font-family: 'Bruno Ace SC', cursive;
+	background-color: #1E3F66;
+	color: white;
+}
+
+h2 {
+	background-color: #1E3F66;
+	color: white;
+	border-radius: 10%;
+	padding: 2%;
+}
+
+section {
+	background-color: #68C5D8;
+	border-radius: 6%;
+}
+
+img {
+	border-radius: 6%;
+	max-width: 90%;
+}
