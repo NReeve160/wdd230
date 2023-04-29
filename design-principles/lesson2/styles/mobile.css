@@ -39,3 +39,16 @@ img {
 	border-radius: 6%;
 	max-width: 90%;
 }
+
+div a {
+	color: black;
+}
+
+a {
+	color: white;
+}
+
+footer {
+	background-color: #1E3F66;
+	color: white;
+}
