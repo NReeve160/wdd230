@@ -1,8 +1,6 @@
 body {
     background-color: #B4C0D9;
     color: #0B1426;
-    margin-left: 40%;
-    margin-right: 40%;
 }
 
 img {
@@ -48,4 +46,11 @@ footer {
 
 footer a {
     color: white;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
 }
