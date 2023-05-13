@@ -1,6 +1,2 @@
-const hamButton = document.querySelector('#hamButton');
-const navigation = document.querySelector('.navigation');
-
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('responsive');
-});
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+document.getElementById("updatedDate").innerHTML = new Date(document.lastModified).toLocaleString();
