@@ -12,27 +12,72 @@
 
     <body>
         <header>
-            <h1>Disney Chamber of Commerce</h1>
+            <img src="images/castle.png" id="castle" alt="A image of the Walt Disney World Castle">
+            <h1>Disney Magic Kingdom Chamber of Commerce</h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="#" title="Home">Home</a></li>
+                    <li><a href="#" title="About">About</a></li>
+                    <li><a href="#" title="Service">Service</a></li>
+                    <li><a href="#" title="History">History</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <span class="current-date"></span>
         </header>
 
-        <nav>
-            <button id="hamButton">&#9776;</button>
-            <ul class="navigation">
-                <li><a href="#" title="Home">Home</a></li>
-                <li><a href="#" title="About">About</a></li>
-                <li><a href="#" title="Service">Service</a></li>
-                <li><a href="#" title="History">History</a></li>
-                <li><a href="#" title="Contact">Contact</a></li>
-            </ul>
-        </nav>
-
         <main>
+            <section class="filler" id="hero-image">
+                <p>Hero with site name and call to action</p>
+            </section>
 
+            <section class="filler" id="news">
+                <p>News</p>
+            </section>
+
+            <section class="filler" id="events1">
+                <p>Event</p>
+            </section>
+
+            <section class="filler" id="events2">
+                <p>Event</p>
+            </section>
+
+            <section class="filler" id="events3">
+                <p>Event</p>
+            </section>
+
+            <section class="filler" id="weather">
+                <p>Weather</p>
+            </section>
+
+            <section class="filler" id="join">
+                <p>Join</p>
+            </section>
+
+            <section class="filler" id="spotlight">
+                <div id="spotlight1">
+                    <p>Spotlight 1</p>
+                </div>
+
+                <div id="spotlight2">
+                    <p>Spotlight 2</p>
+                </div>
+
+                <div id="spotlight3">
+                    <p>Spotlight 3</p>
+                </div>
+            </section>
         </main>
 
         <footer>
-
+            <img src="images/place-holder.jpg" id="placeholder" alt="a place holder image">
+            <h2>Contact Information</h2>
+            <h2><a href="#">Link to a map</a></h2>
+            <p>&copy; <span id="currentYear"></span> | Nathan Reeve | WDD 230 Project | Last Updated: <span id="updatedDate"></span></p>
         </footer>
         <script src="scripts/ham.js"></script>
+        <script src="scripts/last-updated.js"></script>
     </body>
 </html>
