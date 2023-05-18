@@ -1,6 +1,6 @@
 /* large view navigation */
 @media only screen and (min-width: 37.5em) {
-	* {
+	bodyss {
 		padding-left: 3em;
 		padding-right: 3em;
 	}
