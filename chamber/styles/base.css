@@ -103,7 +103,7 @@ nav {
 #spotlight1, #spotlight2 {
 	border: black solid;
 	margin: 1em;
-	max-width: 100%;
+	max-width: 80%;
 }
 
 #spotlight3 {
