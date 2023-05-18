@@ -96,6 +96,14 @@ nav {
 	height: 100px;
 }
 
+#news, #events2, #events3, #join {
+	display: none;
+}
+
+#spotlight3 {
+	display: none;
+}
+
 footer {
 	text-align: center;
 	position: relative;
