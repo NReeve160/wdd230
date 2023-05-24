@@ -12,4 +12,5 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 // "full" or long, medium, short options ... try them
 
 datefield.textContent = fulldate;
-document.querySelector(".current-date").style.textAlign = "center";
+document.querySelector(".current-date").style.textAlign = "right";
+document.querySelector(".current-date").style.gridColumn = "1 / 4";
