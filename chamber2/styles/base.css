@@ -1,0 +1,70 @@
+header {
+	display: grid;
+	background-color: #2F3DE0;
+	padding-top: 5px;
+	height: 75px;
+}
+
+#hamButton {
+	grid-row: 1;
+	grid-column: 1;
+	top: 5px;
+	right: 5px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .3rem;
+	margin-top: .5em;
+	margin-left: .5em;
+}
+
+#castle {
+	grid-row: 1;
+	grid-column: 2;
+	max-width: 100%;
+	max-height: 75px;
+}
+
+header h1 {
+	grid-row: 1;
+	grid-column: 3;
+	font-size: large;
+	text-align: left;
+	color: #F3F2EF;
+	margin-bottom: 0;
+	margin-top: .05em;
+}
+
+.social-media {
+	grid-row: 1;
+	grid-column: 4;
+	margin-top: .5em;
+}
+
+.current-date {
+	grid-row: 2;
+	background-color: #000073;
+	color: #FCD018;
+	padding: 2px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	grid-column: 1 / span 3;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+	grid-column: 1 / 3;
+}
+
+.navigation.responsive li a {
+	display: block;
+}
