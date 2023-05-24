@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 h2{
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
+}
+
+header {
+	display: grid;
+	background-color: #374EE6;
+	height: 150px;
+	text-align: right;
+}
+
+#castle {
+	grid-row: 1;
+	grid-column: 2;
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+#facebook {
+	max-width: 40%;
+}
+
+#linkedin {
+	max-width: 40%;
+}
+
+header h1 {
+	grid-row: 1;
+	grid-column: 3;
+	font-size: large;
+}
+
+nav {
+	max-width: 700px;
+	margin: 10px auto;
+}
+
+#hamButton {
+	grid-row: 1;
+	grid-column: 1;
+	display: float;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: navy;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	grid-column: 1 / span 3;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	padding: 1.15rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+	grid-column: 1 / 3;
+}
+
+.navigation.responsive li a {
+	display: block;
+}
+
+.social-media {
+	grid-row: 1;
+	grid-column: 4;
+	max-width: 100%;
+}
+
+.social-media img {
+	max-width: 100%;
+}
+
+.current-date {
+	grid-row: 2 span 1;
+	grid-column: 2;
+	justify-content: center;
+	color: white;
+}
+
+.filler {
+	border: black solid;
+	margin: 1em;
+	max-width: 100%;
+	height: 100px;
+}
+
+#news, #events2, #events3, #join {
+	display: none;
+}
+
+#spotlight1, #spotlight2 {
+	border: black solid;
+	margin: 1em;
+	max-width: 80%;
+}
+
+#spotlight3 {
+	display: none;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+#placeholder {
+	max-width: 20%;
+}
+
+footer p {
+	display: inline;
+}

@@ -1,0 +1,23 @@
+/* large view navigation */
+@media only screen and (min-width: 37.5em) {
+	body {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	h1 {
+		font-size: 2.5rem
+	}
+	
+	#hamButton {
+		display: none; /* hide hamburger button */
+	} 
+	
+	.navigation {
+		flex-direction: row;
+	}
+	
+	.navigation li {
+		display: block;
+	}
+}
