@@ -41,6 +41,7 @@ nav {
 #hamButton {
 	grid-row: 1;
 	grid-column: 1;
+	display: float;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
@@ -57,6 +58,7 @@ nav {
 	flex-direction: column;
 	list-style: none;
 	background-color: #333;
+	grid-column: 1 / span 3;
 }
 
 .navigation li {
@@ -81,6 +83,7 @@ nav {
 .navigation.responsive li {
 	display: block;
 	width: 100%;
+	grid-column: 1 / 3;
 }
 
 .navigation.responsive li a {
