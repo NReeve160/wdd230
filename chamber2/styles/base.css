@@ -27,9 +27,10 @@ header h1 {
 .social-media {
 	grid-row: 1;
 	grid-column: 4;
-	margin-top: .5em;
+	margin-top: 0;
 	margin-bottom: 0;
-
+	background-color: #2F3DE0;
+	padding: .5em;
 }
 
 .current-date {
@@ -55,7 +56,7 @@ header h1 {
 
 .navigation {
 	list-style: none;
-	background-color: #333;
+	background-color: black;
 	grid-column: 1 / 5;
 	margin: 0;
 	padding: 0;
@@ -70,7 +71,7 @@ header h1 {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: #F3F2EF;
 }
 
 .navigation li a:hover {
@@ -89,23 +90,116 @@ header h1 {
 	display: block;
 }
 
+main {
+	margin-top: 3em;
+}
+
+.announcement {
+	text-align: center;
+}
+
 #events2 {
 	display: none;
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 #events3 {
 	display: none;
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 #join {
 	display: none;
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 #spotlight3 {
 	display: none;
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
-#hero {
+#hero-image {
 	border: solid black;
-	
+	top: 50px;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#news {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#events1 {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#weather {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#news-release {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#spotlight1 {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#spotlight2 {
+	border: solid black;
+	margin: .5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+footer {
+	background-color: #2F3DE0;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 5px;
+	color: #F3F2EF;
+}
+
+#footer-logo {
+	max-width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer a{
+	color: #F3F2EF;
+}
+
+.copywrite {
+	background-color: #000073;
+	padding: .5em;
 }
