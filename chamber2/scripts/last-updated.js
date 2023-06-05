@@ -19,3 +19,7 @@ document.querySelector(".announcement").style.display = "none";
 
 const day = now.getDay();
 console.log(day);
+
+if (day == 1 || 2) {
+	document.querySelector(".announcement").style.display = "block";
+}
