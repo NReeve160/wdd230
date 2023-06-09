@@ -12,3 +12,7 @@ table {
 td {
     border: 1px solid black;
 }
+
+thead:nth-child(3) {
+    border: none;
+}
