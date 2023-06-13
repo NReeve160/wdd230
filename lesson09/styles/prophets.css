@@ -1,0 +1,13 @@
+.cards:nth-child(2) {
+    border: solid black;
+}
+
+section {
+    border: solid black;
+    width: 20%;
+    padding: 0px;
+}
+
+section img {
+    max-width: 100%;
+}
