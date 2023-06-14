@@ -37,14 +37,11 @@ async function getProphetData() {
       // Append the section with the created elements
 
       card.appendChild(h2);
-      card.appendChild(portrait);
       card.appendChild(birthdate);
       card.appendChild(birthplace);
+      card.appendChild(portrait);
 
       cards.appendChild(card);
 
     });
-    document.querySelector('div.card').style.margin = '10';
   }
-
-  document.querySelector('body').style.textAlign = 'center';
