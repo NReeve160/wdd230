@@ -1,5 +1,8 @@
-main {
+body {
     text-align: center;
+}
+
+main {
     background-color: #677FA3;
     color: white;
     margin-left: 20%;
