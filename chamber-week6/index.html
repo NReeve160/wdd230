@@ -32,8 +32,6 @@
                 <li><a href="#" title="Service">Service</a></li>
                 <li><a href="#" title="History">History</a></li>
                 <li><a href="#" title="Contact">Contact</a></li>
-                <li><a href="#" title="facebook">Facebook</a></li>
-                <li><a href="#" title="linkedin">LinkedIn</a></li>
             </ul>
         </header>
 
@@ -42,9 +40,13 @@
                 <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             </div>
 
-            <section class="filler" id="hero-image">
+            <section class="hero-section">
                 <h2>Hero with site name and call to action</h2>
-                <img src="images/wdd230-org.jpg" alt="assigned image for this week">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/image-small.png" />
+                    <source media="(max-width: 900px)" srcset="images/image-medium.png" />
+                    <img src="images/image-large.png" alt="These are images" />
+                  </picture>
             </section>
 
             <section class="filler" id="events1">
