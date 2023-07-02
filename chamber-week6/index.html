@@ -16,7 +16,7 @@
 
     <body>
         <header>
-            <img src="images/anna-g6bfb91337_640.png" id="castle" alt="A image of the Walt Disney World Castle">
+            <img src="images/anna-g6bfb91337_640.webp" id="castle" alt="A image of the Walt Disney World Castle">
             <h1>Disney Magic Kingdom Chamber of Commerce</h1>
             <nav>
                 <button id="hamButton">&#9776;</button>
@@ -41,12 +41,14 @@
             </div>
 
             <section class="hero-section">
-                <h2>Hero with site name and call to action</h2>
-                <picture>
-                    <source media="(max-width: 400px)" srcset="images/image-small.png" />
-                    <source media="(max-width: 900px)" srcset="images/image-medium.png" />
-                    <img src="images/image-large.png" alt="These are images" />
-                  </picture>
+                <div class="hero-with-text">
+                    <h2 id="hero-text">Hero with site name and call to action</h2>
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="images/image-small.png" />
+                        <source media="(max-width: 900px)" srcset="images/image-medium.png" />
+                        <img src="images/image-large.png" alt="These are images" />
+                    </picture>
+                </div>
             </section>
 
             <section class="filler" id="events1">
@@ -62,7 +64,13 @@
             </section>
 
             <section class="filler" id="weather">
-                <h2>Weather</h2>
+                <h1>Weather</h1>
+                <figure>
+                    <img src="#" alt="a picture depicting weather" id="weather-icon">
+                    <figcaption></figcaption>
+                    </figure>
+                <p><span id="current-temp"></span> &deg;F</p>
+                <p>Wind Chill: <span id="wind-chill"> </span> mph</p>
             </section>
 
             <section class="filler" id="news-release">
@@ -98,5 +106,6 @@
         </footer>
         <script src="scripts/ham.js"></script>
         <script src="scripts/last-updated.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>

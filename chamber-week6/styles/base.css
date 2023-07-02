@@ -1,8 +1,9 @@
+
 header {
 	display: grid;
 	background-color: #2F3DE0;
 	padding-top: 5px;
-	height: 75px;
+	margin-bottom: -2em;
 }
 
 #castle {
@@ -63,7 +64,7 @@ header h1 {
 }
 
 .navigation li {
-	display: block;
+	display: none;
 }
 
 .navigation li a {
@@ -104,6 +105,7 @@ main {
 	margin: .5em;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	padding-bottom: 100px;;
 }
 
 #events3 {
@@ -143,6 +145,15 @@ main {
 	aspect-ratio: auto;
 }
 
+.hero-with-text {
+	position: relative;
+	text-align: center;
+}
+
+#hero-text {
+	position: absolute;
+}
+
 #news {
 	border: solid black;
 	margin: .5em;
@@ -158,10 +169,12 @@ main {
 }
 
 #weather {
-	border: solid black;
+	text-align: center;
+	background-color: #2F3DE0;
 	margin: .5em;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	box-shadow: 3px 3px 13px 3px #000073;
 }
 
 #news-release {
