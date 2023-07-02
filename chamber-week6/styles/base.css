@@ -132,14 +132,6 @@ main {
 	padding-bottom: 2em;
 }
 
-.hero-section {
-	border: solid black;
-	top: 50px;
-	margin: .5em;
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-
 .hero-section img {
 	max-width: 100%;
 	aspect-ratio: auto;

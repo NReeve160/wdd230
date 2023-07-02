@@ -28,10 +28,11 @@
         grid-column: 1 / span 2;
     }
 
-    #hero-image {
+    .hero-section {
         grid-row: 2;
         grid-column: 1 / span 2;
     }
+
 
     #news-release {
         grid-row: 3;
