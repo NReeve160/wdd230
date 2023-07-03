@@ -1,0 +1,104 @@
+@media only screen and (min-width: 800px) {
+    #castle {
+        grid-column: 1;
+        padding-left: 1em;
+    }
+
+    header h1 {
+        grid-column: 2;
+        font-size: xx-large;
+        padding-left: 2em;
+    }
+
+    .social-media {
+        grid-column: 3;
+    }
+
+    #hamButton {
+        grid-column: 4;
+        margin-right: 1em;
+    }
+
+    main {
+        display: grid;
+    }
+
+    .announcement {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+
+    .hero-section {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+    }
+
+
+    #news-release {
+        grid-row: 3;
+        grid-column: 1 / span 2;
+    }
+
+    #spotlight {
+        grid-row: 4;
+        grid-column: 1 / span 2;
+        display: grid;
+    }
+
+    #spotlight1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    #spotlight1 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #join {
+        display: block;
+        grid-row: 5;
+        grid-column: 1 / span 2;
+    }
+
+    #events1 {
+        grid-row: 6;
+        grid-column: 1;
+        margin-right: 0px;
+        padding-right: 10em;
+    }
+
+    #weather {
+        grid-row: 6;
+        grid-column: 2;
+    }
+
+    footer {
+        display: grid;
+        text-align: left;
+    }
+
+    #footer-logo {
+        grid-row: 1;
+        grid-column: 1;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #contact {
+        grid-row: 1;
+        grid-column: 1;
+        margin-left: 5em;
+    }
+
+    #link-map  {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .copywrite {
+        grid-row: 2;
+        grid-column: 1 / span 3;
+        text-align: center;
+    }
+}
