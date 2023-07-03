@@ -160,7 +160,7 @@ main {
 	padding-bottom: 2em;
 }
 
-#weather {
+.filler {
 	text-align: center;
 	background-color: #2F3DE0;
 	margin: .5em;
@@ -168,6 +168,10 @@ main {
 	padding-bottom: 2em;
 	box-shadow: 3px 3px 13px 3px #000073;
 	color: white;
+}
+
+.filler img {
+	max-width: 90%;
 }
 
 #news-release {
