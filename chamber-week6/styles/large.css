@@ -17,7 +17,7 @@
 		display: flex;
 		max-width: 100%;
 		position: inherit;
-		padding-left: 25%;
+		justify-content: center;
 	}
 	
 	.navigation li {
