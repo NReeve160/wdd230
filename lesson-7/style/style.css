@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+  
+img {
+    filter: blur(0em);
+}
+
+img[data-src] {
+    filter: blur(.2em);
+    transition: filter 3s;
+}
