@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Magic Kingdom Chamber of Commerce</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1">
+        <meta name="description" content="A website that is going to be the base formatting
+        for the entire commerce website, specifically to test and play with the collapsable
+        navigation menu">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- Normalize -->
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/mulan.webp" id="castle" alt="A image of the Walt Disney World Castle">
+            <h1>Disney Magic Kingdom Chamber of Commerce</h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+            </nav>
+            <div class="social-media">
+                <img src="images/icons8-facebook-50.png" id="facebook" alt="facebook logo">
+                <img src="images/icons8-linkedin-50.png" id="linkedin" alt="linkedin logo">
+            </div>
+            <span class="current-date"></span>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="directory.html" title="Directory">Business Directory</a></li>
+                <li><a href="discover.html" title="Service">Discover</a></li>
+                <li><a href="#" title="History">History</a></li>
+                <li><a href="join.html" title="Contact">Join</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="announcement">
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
+
+            <div class="filler" id="news-release">
+                <h1>Membership Form</h1>
+                <form id="membershipForm" method="get" action="/thankyou.html"> == $0
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="bposition">Business Position: </label><br>
+                    <input type="text" id="bposition" name="bposition" pattern="[A-Za-z\s\-]{7,}"><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com"><br>
+                    <label for="phone">Cell Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="bname">Business Name: </label><br>
+                    <input type="text" id="bname" name="bname" required><br>
+                    <label>Membership Level: </label><br>
+                    <input type="radio" id="pixie" name="membership" value="Pixie">
+                    <label for="pixie">Pixie</label><br>
+                    <input type="radio" id="dog" name="membership" value="Dog">
+                    <label for="dog">Dog</label><br>
+                    <input type="radio" id="duck" name="membership" value="Duck">
+                    <label for="duck">Duck</label><br>
+                    <input type="radio" id="mouse" name="membership" value="Mouse">
+                    <label for="mouse">Mouse</label><br>
+                    <label for="description">Business Description</label><br>
+                    <textarea id="description" name="description" rows="3"></textarea>
+                    <input type="hidden" name="submissionTime" id="submissionTime" value="2023-07-04 05:32:41"><br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <img src="images/mulan.webp" id="footer-logo" alt="a place holder image">
+            <h2 id="contact">Contact Information</h2>
+            <h2 id="link-map"><a href="#">Link to a map</a></h2>
+            <div class="copywrite">
+                <p>&copy; <span id="currentYear"></span> | Nathan Reeve | WDD 230 Project | Last Updated: <span id="updatedDate"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/ham.js"></script>
+        <script src="scripts/last-updated.js"></script>
+        <script src="scripts/join.js"></script>
+    </body>
+</html>

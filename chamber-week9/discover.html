@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Magic Kingdom Chamber of Commerce</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1">
+        <meta name="description" content="A website that is going to be the base formatting
+        for the entire commerce website, specifically to test and play with the collapsable
+        navigation menu">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- Normalize -->
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/tiana.webp" id="castle" alt="A image of the Walt Disney World Castle">
+            <h1>Disney Magic Kingdom Chamber of Commerce</h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+            </nav>
+            <div class="social-media">
+                <img src="images/icons8-facebook-50.png" id="facebook" alt="facebook logo">
+                <img src="images/icons8-linkedin-50.png" id="linkedin" alt="linkedin logo">
+            </div>
+            <span class="current-date"></span>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="directory.html" title="Directory">Business Directory</a></li>
+                <li><a href="discover.html" title="Service">Discover</a></li>
+                <li><a href="#" title="History">History</a></li>
+                <li><a href="join.html" title="Contact">Join</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="announcement">
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
+
+                <div class="filler">
+                    <h1>Main Street USA</h1>
+                    <img src="images/adventureland.webp" alt="picture of Main Street" loading="lazy">
+                    <p>Main Street USA is the first sight that you encounter when you first enter the Magic 
+                        Kingdom at Walt Disney World. This is also the street area that you see on both sides 
+                        as you look down upon the view of Cinderella’s Castle. It is no doubt that the area 
+                        would be impressive since this is your first impression of the park. I love Main 
+                        Street and could spend a ton of time enjoying the shopping, treats, entertainment, 
+                        and views.</p>
+                </div>
+
+                <div class="filler">
+                    <h1>Central Hub</h1>
+                    <img src="images/centralwheel.webp" alt="picture of Partners Statue" loading="lazy">
+                    <p>The Magic Kingdom Hub is known as a central point in the park before Magic Kingdom 
+                        branches out into its famous themed lands (Fantasyland, Adventureland, Tomorrowland, etc.)
+                        You can think of this as a bicycle wheel where all of the tiny metal bars (spokes) intersect 
+                        at the middle of the wheel at what typically looks like a metal cap (hub).The name Hub comes 
+                        from what's known as the Hub-Spoke distribution model. Simply put, spokes are the paths that 
+                        extend out from a central meeting point, known as a Hub. While the themed lands of the Magic 
+                        Kingdom are not all directly connected to each other, the themed lands are almost all connected 
+                        to the Magic Kingdom Hub. It's a very open, circular area that's popular for fireworks and 
+                        parade viewing, as well as a meeting point for friends and family before heading off to 
+                        experience the attractions of Magic Kingdom.</p>
+                </div>
+
+                <div class="filler">
+                    <h1>Fantasy Land</h1>
+                    <img src="images/fantasyland.webp" alt="picture of Fantasy Land" loading="lazy">
+                    <p>Fantasyland is one of the most popular lands within the Magic Kingdom for its size, number of 
+                        attractions, and characters. It has the highest presence of Disney characters and direct 
+                        representation from so many of our favorite movies and stories.</p>
+                </div>
+
+                <div class="filler">
+                    <h1>Tomorrow Land</h1>
+                    <img src="images/tomorrowland.webp" alt="picture of Tomorrow Land" loading="lazy">
+                    <p>Tomorrowland is a land within the Magic Kingdom that helps to transport us to a 
+                        community of tomorrow.  The attractions, characters, and experiences fit in with 
+                        the theme of the land.  The land had a lot of history and special touches from Walt himself.</p>
+                </div>
+
+                <div class="filler">
+                    <h1>Frontier Land</h1>
+                    <img src="images/frontierland.webp" alt="picture of Frontier Land" loading="lazy">
+                    <p>Frontierland is the area of the Magic Kingdom where you can experience the 
+                        “wildest ride in the wilderness” and a lot of other rootin’ tootin’ fun!  
+                        The theme taken from the “wild west” is a lot of fun and is an experience 
+                        that you won’t find in many other places.</p>
+                </div>
+
+                <div class="filler">
+                    <h1>Adventure Land</h1>
+                    <img src="images/adventureland.webp" alt="picture of Adventure Land" loading="lazy">
+                    <p>Adventureland is a lovely area within the Magic Kingdom. The area is so green and lush, 
+                        and you have the sounds of energizing drums and beats that you can’t help but feel your 
+                        adrenaline rise in the area. We love the mix of different countries and experiences and 
+                        definitely venture here frequently to go on Pirates of the Caribbean!</p>
+                </div>
+
+        </main>
+
+        <footer>
+            <img src="images/tiana.webp" id="footer-logo" alt="a place holder image">
+            <h2 id="contact">Contact Information</h2>
+            <h2 id="link-map"><a href="#">Link to a map</a></h2>
+            <div class="copywrite">
+                <p>&copy; <span id="currentYear"></span> | Nathan Reeve | WDD 230 Project | Last Updated: <span id="updatedDate"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/ham.js"></script>
+        <script src="scripts/last-updated.js"></script>
+    </body>
+</html>

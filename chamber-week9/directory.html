@@ -1,0 +1,55 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <title>Magic Kingdom Chamber of Commerce</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1">
+        <meta name="description" content="A website that is going to be the base formatting
+        for the entire commerce website, specifically to test and play with the collapsable
+        navigation menu">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- Normalize -->
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/anna.webp" id="castle" alt="A image of the Walt Disney World Castle">
+            <h1>Disney Magic Kingdom Chamber of Commerce</h1>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+            </nav>
+            <div class="social-media">
+                <img src="images/icons8-facebook-50.png" id="facebook" alt="facebook logo">
+                <img src="images/icons8-linkedin-50.png" id="linkedin" alt="linkedin logo">
+            </div>
+            <span class="current-date"></span>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="directory.html" title="Directory">Business Directory</a></li>
+                <li><a href="discover.html" title="Service">Discover</a></li>
+                <li><a href="#" title="History">History</a></li>
+                <li><a href="join.html" title="Contact">Join</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="filler">
+                
+            </div>
+        </main>
+
+        <footer>
+            <img src="images/anna.webp" id="footer-logo" alt="a place holder image">
+            <h2 id="contact">Contact Information</h2>
+            <h2 id="link-map"><a href="#">Link to a map</a></h2>
+            <div class="copywrite">
+                <p>&copy; <span id="currentYear"></span> | Nathan Reeve | WDD 230 Project | Last Updated: <span id="updatedDate"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/ham.js"></script>
+        <script src="scripts/last-updated.js"></script>
+    </body>
+</html>
