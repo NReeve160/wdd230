@@ -1,4 +1,4 @@
-const file = 'data.json';
+const file = 'https://github.com/NReeve160/wdd230.github.io/blob/main/chamber-week9/scripts/data.json';
 
 async function getBusinessData() {
     const response = await fetch(file);
