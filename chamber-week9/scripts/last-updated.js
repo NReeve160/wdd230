@@ -14,7 +14,6 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.textContent = fulldate;
 document.querySelector(".current-date").style.textAlign = "center";
 document.querySelector(".current-date").style.gridColumn = "1 / span 4";
-
 document.querySelector(".announcement").style.display = "none";
 
 const day = now.getDay();
