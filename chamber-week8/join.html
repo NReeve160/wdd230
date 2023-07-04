@@ -40,6 +40,35 @@
                 <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             </div>
 
+            <div class="filler" id="news-release">
+                <form id="membershipForm" accept="/thankyou.html" method="get">
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="bposition">Business Position: </label><br>
+                    <input type="text" id="bposition" name="bposition" pattern="[A-Za-z\s\-]{7,}"><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com"><br>
+                    <label for="phone">Cell Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="bname">Business Name: </label><br>
+                    <input type="text" id="bname" name="bname" required><br>
+                    <label for="membership">Membership Level: </label><br>
+                    <input type="radio" id="pixie" name="membership" value="Pixie">
+                    <label for="pixie">Pixie</label><br>
+                    <input type="radio" id="dog" name="membership" value="Dog">
+                    <label for="dog">Dog</label><br>
+                    <input type="radio" id="duck" name="membership" value="Duck">
+                    <label for="duck">Duck</label><br>
+                    <input type="radio" id="mouse" name="membership" value="Mouse">
+                    <label for="mouse">Mouse</label><br>
+                    <label for="description">Business Description</label><br>
+                    <textarea id="description" name="description" rows="3"></textarea>
+                    <input type="hidden" name="submissionTime" id="submissionTime" value="2023-07-04 05:32:41"><br>
+                    <input type="submit">
+                </form>
+            </div>
         </main>
 
         <footer>
@@ -52,5 +81,6 @@
         </footer>
         <script src="scripts/ham.js"></script>
         <script src="scripts/last-updated.js"></script>
+        <script src="scripts/join.js"></script>
     </body>
 </html>
