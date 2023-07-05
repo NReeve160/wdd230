@@ -218,3 +218,22 @@ footer a{
 	background-color: #000073;
 	padding: .5em;
 }
+
+.space {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	text-align: center;
+	background-color: #2F3DE0;
+	color: #F3F2EF;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 5%;
+}
+
+section img {
+	border-radius: 5%;
+}

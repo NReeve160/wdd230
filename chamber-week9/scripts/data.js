@@ -1,28 +1,25 @@
-const file = 'http://wdd230.github.io/data.json';
+const file = 'https://nreeve160.github.io/wdd230.github.io/chamber-week9/scripts/data.json';
 
-async function getProphetData() {
+async function getBusinessData() {
     const response = await fetch(file);
     const data = await response.json();
-    console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
-    displayProphets(data.prophets);
+    console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
+    displayBusinesses(data.businesses);
   }
 
-  getProphetData();
 
 
-/*
   const displayBusinesses = (businesses) => {
-    const cards = document.querySelector('div.filler'); // selects the div section named cards for a container
+    const filler = document.querySelector('div.space'); // selects the div section named cards for a container
 
-    prophets.forEach((business) => {
+    businesses.forEach((business) => {
       // Create elements that are going to be added to each div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let portrait = document.createElement('img');
-      let address = document.createElement('p');
-      let phone = document.createElement('p');
+      let Address = document.createElement('p');
+      let phone = document.createElement('p')
       let website = document.createElement('p');
-
 
       h2.textContent = `${business.name}`;
 
@@ -34,22 +31,21 @@ async function getProphetData() {
       portrait.setAttribute('width', '340');
       portrait.setAttribute('height', '440');
 
-      address.textContent = `${business.address}`;
+      Address.textContent = `${business.Address}`;
       phone.textContent = `${business.phone}`;
-      website.textContent = `${business.website}`;
+      website.textContent = `${business.website}`
 
       // Append the section with the created elements
 
       card.appendChild(h2);
       card.appendChild(portrait);
-      card.appendChild(address);
+      card.appendChild(Address);
       card.appendChild(phone);
       card.appendChild(website);
 
-      cards.appendChild(card);
+      filler.appendChild(card);
 
     });
   }
-  getBusinessData();
 
-  */
+  getBusinessData();
