@@ -1,13 +1,13 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const file = 'http://wdd230.github.io/data.json';
 
 async function getProphetData() {
-    const response = await fetch(url);
+    const response = await fetch(file);
     const data = await response.json();
     console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
     displayProphets(data.prophets);
   }
 
-document.querySelector(".filler").style.backgroundColor = "pink";
+  getProphetData();
 
 
 /*
