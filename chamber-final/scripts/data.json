@@ -1,0 +1,46 @@
+{
+    "businesses": [
+        {
+            "name": "Be Our Guest",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.disboards.com/media/beast.65657/full"
+        },
+        {
+            "name": "Cinderella Royal table",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.wdwinfo.com/wp-content/uploads/2023/03/cinderellas-royal-table-from-outside.jpg"
+        },
+        {
+            "name": "Cosmic Ray's Starlight Cafe",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.disboards.com/media/tomorrowland-13.56908/full"
+        },
+        {
+            "name": "Emporium",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.wdwinfo.com/wp-content/uploads/2021/04/main-street-emporium-side-shot.jpg"
+        },
+        {
+            "name": "Bibbidi Bobbidi Boutique",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.wdwinfo.com/wp-content/uploads/2023/03/Bibbidi-Bobbidi-Boutique.jpg"
+        },
+        {
+            "name": "Hundred Acre Goods",
+            "address": "180 Seven Seas Drive, Lake Buena Vista, FL 32830",
+            "phone": "(407) 939-5277",
+            "website": "disneyworld.disney.go.com",
+            "imageurl": "https://www.wdwinfo.com/wp-content/uploads/2018/10/Hundered-Acre-Goods.jpg"
+        }
+    ]
+}
