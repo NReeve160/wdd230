@@ -10,7 +10,7 @@ async function getBusinessData() {
 
 
   const displayBusinesses = (businesses) => {
-    const filler = document.querySelector('div#spotlight1'); // selects the div section named cards for a container
+    const filler = document.querySelector('div.places'); // selects the div section named cards for a container
 
     businesses.forEach((business) => {
       // Create elements that are going to be added to each div.cards element

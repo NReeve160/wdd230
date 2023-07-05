@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&display=swap');
+
+p {
+	font-family: 'Noto Serif Makasar', serif;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+}
+
+h2 {
+	font-family: 'Satisfy', cursive;
+}
 
 header {
 	display: grid;
@@ -139,11 +153,13 @@ main {
 
 .hero-with-text {
 	position: relative;
-	text-align: center;
 }
 
 #hero-text {
 	position: absolute;
+	margin-left: 2em;
+	font-family: 'Satisfy', cursive;
+	font-size: xx-large;
 }
 
 #news {
@@ -211,7 +227,8 @@ footer {
 	margin-bottom: 0;
 	padding-top: 5px;
 	color: #F3F2EF;
-	display: grid;
+	display: flex;
+	flex-direction: column;
 }
 
 #footer-logo {
@@ -223,9 +240,9 @@ footer {
 }
 
 iframe {
-	width: 50px;
-	height: 50px;
-	grid-column: 2;
+	height: 150px;
+	width: 150px;
+	align: center;
 }
 
 footer p {
@@ -258,4 +275,14 @@ section {
 
 section img {
 	border-radius: 5%;
+}
+
+.places {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contact {
+	grid-column: 1 / span 4;
 }
