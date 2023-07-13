@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+
+/* Header section */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FBBF4D;
+    padding-top: .5em;
+    padding-bottom: 0;
+    color: white;
+}
+
+#company {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#company h1 {
+    margin-bottom: 0;
+}
+
+#company p {
+    margin-top: 0;
+}
+
+#logo {
+    max-width: 15%;
+    margin-right: 1em;
+}
+
+#menu {
+    padding: 0;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    background-color: #A7A9AC;
+    width: 15%;
+    height: 20%;
+}
+
+#smoothie {
+    max-width: 70%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+nav {
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #BA1F5A;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 2em;
+}
+
+.navigation li {
+    display: none;
+}
+
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+
+.navigation.responsive li a {
+	display: block;
+}
+
+/* Styling for the main sections */
+.box {
+    background-color: #E866A1;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: .5em;
+    border-radius: 20%;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+/* Home specific styles */
+#hero {
+    background-color: white;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#hero h2 {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 15%;
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+
+#weather {
+    background-color: #EB7A5C;
+}
+
+#drinks {
+    background-color: #7A2B84;
+}
+
+#contact {
+    background-color: #D5236F;
+}
+
+#social-media {
+    background-color: #228BCB;
+}  
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #D42070;
+    margin: 0;
+    padding: 1em;
+    color: white;
+}
