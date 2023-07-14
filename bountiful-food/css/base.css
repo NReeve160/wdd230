@@ -89,7 +89,7 @@ nav ul {
 }
 
 .box img {
-    max-width: 100%;
+    max-width: 30%;
 }
 
 /* Home specific styles */
@@ -98,6 +98,10 @@ nav ul {
     position: relative;
     margin: 0;
     padding: 0;
+}
+
+#hero img {
+    max-width: 100%;
 }
 
 #hero h2 {
