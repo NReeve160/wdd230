@@ -76,6 +76,16 @@ nav ul {
 	display: block;
 }
 
+.navigation li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 /* Styling for the main sections */
 .box {
     background-color: #E866A1;
