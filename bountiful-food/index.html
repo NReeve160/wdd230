@@ -6,13 +6,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="description" content="The bountiful organic fruits Road Stand!">
             <link href="css/base.css" rel="stylesheet">
-            <link href="#" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
             <link href="#" rel="stylesheet">
         </head>
 
         <body>
             <header>
-                 <img src="images/bird-logo.png" id="logo" alt="Logo for bountiful foods">
+                 <img src="images/bird-logo.png" id="logo" alt="Logo for bountiful foods" loading="lazy">
                  
                  <section id="company">
                      <h1>Bountiful Foods</h1>
@@ -20,16 +20,14 @@
                  </section>
                  
                  <button id="menu">
-                 <img src="images/icons8-smoothie-64.png" id="smoothie" alt="smoothie menu icon">
+                 <img src="images/icons8-smoothie-64.png" id="smoothie" alt="smoothie menu icon" loading="lazy">
                  </button>
-
-                 <div class="break"></div>
 
                  <nav>
                     <ul class="navigation">
-                        <li><p>Home</p></li>
-                        <li><p>Fresh</p></li>
-                        <li><p>About Us</p></li>
+                        <li><a href="index.html"><p>Home</p></a></li>
+                        <li><a href="fresh.html"><p>Fresh</p></a></li>
+                        <li><a href="about.html"><p>About Us</p></a></li>
                     </ul>
                  </nav>
             </header>
@@ -38,10 +36,14 @@
                 <div class="home">
                     <section class="box" id="hero">
                         <h2>Make your own Smoothie!</h2>
-                        <img src="images/beach.jpg" alt="Carmel by the sea beach">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="images/beach.jpg" alt="Carmel by the sea beach" loading="lazy">
+                            <img src="images/beach-medium.png" alt="Different sized image of Carmel by the sea beach" loading="lazy">
+                        </picture>
                     </section>
+
                     <section class="box" id="areas">
-                        <img src="images/holiday-vacation-icon.png" alt="A beach image">
+                        <img src="images/holiday-vacation-icon.png" alt="A beach image" loading="lazy">
                         <h1>Carmel-by-the-Sea</h1>
                         <p>Carmel-by-the-Sea is a small beach city on California's Monterey Peninsula. 
                             It's known for the museums and library of the historic Carmel Mission, and 
@@ -52,8 +54,7 @@
                     </section>
 
                     <section class="box" id="weather">
-                        <img src="images/cloud-icon.png" alt="A icon of a cloud">
-                        <h1>Weather</h1>
+                        <img src="images/cloud-icon.png" alt="A icon of a cloud" id="cloud" loading="lazy">
                         <div id="today">
                             <h2>Current Weather</h2>
                             <p><span id="current-temp"></span> &deg;F</p>
@@ -84,23 +85,25 @@
                     </section>
 
                     <section class="box" id="drinks">
-                        <img src="images/icons8-smoothie-64.png" alt="a icon of a smoothie">
+                        <img src="images/icons8-smoothie-64.png" alt="a icon of a smoothie" loading="lazy">
                         <p id="drinkCount">Get Back to this later</p>
                     </section>
 
                     <section class="box" id="contact">
-                        <img src="images/contact-us-icon.png" alt="icon for contacting us">
-                        <h1>Contact Us</h1>
-                        <p>Phone</p>
-                        <p>111-222-3333</p>
-                        <p>Email</p>
-                        <p>Smoothies@BountifulFoods.com</p>
-                        <p>Address</p>
-                        <p>6006 San Antonio Ave, Carmel-By-The-Sea, CA 93921</p>
+                        <img src="images/contact-us-icon.png" alt="icon for contacting us" id="phone-mail" loading="lazy">
+                        <div class="contact-info">
+                            <h1>Contact Us</h1>
+                            <p>Phone</p>
+                            <p>111-222-3333</p>
+                            <p>Email</p>
+                            <p>Smoothies@BountifulFoods.com</p>
+                            <p>Address</p>
+                            <p>6006 San Antonio Ave, Carmel-By-The-Sea, CA 93921</p>
+                        </div>
                     </section>
                     <section class="box" id="social-media">
-                        <img src="images/icons8-facebook-50.png" alt="Facebook logo">
-                        <img src="images/icons8-linkedin-50.png" alt="LinkedIn logo">
+                        <img src="images/icons8-facebook-50.png" alt="Facebook logo" loading="lazy">
+                        <img src="images/icons8-linkedin-50.png" alt="LinkedIn logo" loading="lazy">
                     </section>
                 </div>
             </main>
