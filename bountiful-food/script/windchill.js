@@ -32,7 +32,7 @@ async function apiFetch() {
     }
   }
 
-  function  displayResults(weatherData) {
+  function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.list[0].main.temp.toFixed(2)}</strong>`;
     humidity.innerHTML = `<strong>${weatherData.list[0].main.humidity}</strong>`;
     condition.innerHTML = `<strong>${weatherData.list[0].weather[0].description}</strong>`;

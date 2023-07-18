@@ -1,1 +1,64 @@
-I added something Haley
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Bountiful Foods</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="description" content="The bountiful organic fruits Road Stand!">
+            <link href="css/base.css" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
+            <link href="css/large.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <header>
+                 <img src="images/bird-logo.png" id="logo" alt="Logo for bountiful foods" loading="lazy">
+                 
+                 <section id="company">
+                     <h1>Bountiful Foods</h1>
+                     <p>A Blessed Harvest</p>
+                 </section>
+                 
+                 <button id="menu">
+                 <img src="images/icons8-smoothie-64.png" id="smoothie" alt="smoothie menu icon" loading="lazy">
+                 </button>
+
+                 <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html"><p>Home</p></a></li>
+                        <li><a href="fresh.html"><p>Fresh</p></a></li>
+                        <li><a href="about.html"><p>About Us</p></a></li>
+                    </ul>
+                 </nav>
+            </header>
+
+            <main>
+                <div class="fresh">
+                    <form id="order">
+                        <label for="full-name">Full Name</label><br>
+                        <input type="text" id="full-name" name="full-name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone"><br>
+                        <label for="fruit">Select your Fruit</label>
+
+
+                    </form>
+                </div>
+
+                <div class="cards">
+                    
+                </div>
+            </main>
+
+            <footer>
+                <div class="copywrite">
+                    <p>&copy; <span id="currentYear"></span> | Nathan Reeve | WDD 230 Project <br> Last Updated: <span id="updatedDate"></span></p>
+                </div>
+            </footer>
+            <script src="script/menu.js"></script>
+            <script src="script/fresh.js"></script>
+            <script src="script/last-updated.js"></script>
+        </body>
+    </html>
