@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     body {
         margin-left: 10%;
         margin-right: 10%;
@@ -61,17 +61,27 @@
 
     #weather {
         grid-row: 3;
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 3;
+    }
+
+    #weather img {
+        max-width: 40%;
     }
 
     #social-media {
         display: flex;
-        flex-direction: column;
-        grid-row: 3;
-        grid-column: 3;
+        flex-direction: row;
+        grid-row: 4;
+        grid-column: 1 / span 3;
+        justify-content: center;
     }
 
     #social-media img {
         max-width: 100%;
+    }
+
+    .contact-info {
+        padding: 0;
+        font-size: smaller;
     }
 }

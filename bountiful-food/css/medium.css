@@ -69,4 +69,14 @@
         grid-row: 1;
         grid-column: 2;
     }
+
+    .about {
+        margin: 3em;
+    }
+
+    .about p {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
 }
