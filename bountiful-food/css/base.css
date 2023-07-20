@@ -138,6 +138,9 @@ nav ul {
     background-color: #228BCB;
 }  
 
+/* Fresh Page Styling */
+
+
 /* Footer Styling */
 footer {
     text-align: center;
@@ -149,4 +152,5 @@ footer {
 
 iframe {
     max-width: 70%;
+    border-radius: 10px;
 }
