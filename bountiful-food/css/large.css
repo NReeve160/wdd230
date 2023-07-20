@@ -88,4 +88,8 @@
     .about #contact img {
         max-width: 20%;
     } 
+
+    button {
+        display: block;
+    }
 }
